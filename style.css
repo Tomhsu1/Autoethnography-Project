@@ -1,0 +1,28 @@
+#immigration1 {
+    float: left;
+    width: 120px;
+    height: 100px;
+    top: 20%;
+    left: 23%;
+    position: absolute;
+}
+
+#immigration2 {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    float: right;
+    right: 20%;
+    top: 22%;
+}
+
+#china {
+    position:relative;
+}
+
+#sf {
+    position: relative;
+    width: 500px;
+    height: 425px;
+    float: right;
+}
