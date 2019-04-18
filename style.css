@@ -1,28 +1,40 @@
 #immigration1 {
     float: left;
-    width: 120px;
-    height: 100px;
+    width: 8.35vw;
+    height: 14.62vh;
     top: 20%;
-    left: 23%;
+    left: 20%;
     position: absolute;
 }
 
 #immigration2 {
-    width: 120px;
-    height: 100px;
+    width: 8.35vw;
+    height: 14.62vh;
     position: absolute;
     float: right;
     right: 20%;
     top: 22%;
 }
 
+#drag1 {
+    width: 8.35vw;
+    height: 14.62vh;
+}
+
 #china {
     position:relative;
+    width: 34.82vw;
+    height: 62.13vh;
 }
 
 #sf {
     position: relative;
-    width: 500px;
-    height: 425px;
+    width: 34.82vw;
+    height: 62.13vh;
     float: right;
+}
+
+#arrow {
+    width: 27.86vw;
+    height: 27.86vw;
 }
