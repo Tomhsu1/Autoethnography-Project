@@ -15,7 +15,7 @@ function drop(ev) {
 var x = 10;
 
 function movingElement() {
-  elmt = document.getElementById("fuck");
+  elmt = document.getElementById("test");
   if (x < 200) {
     x = x + 1;
   } else {
