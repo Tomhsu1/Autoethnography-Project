@@ -16,7 +16,7 @@ var x = 10;
 
 function movingElement() {
   elmt = document.getElementById("test");
-  if (x < 200) {
+  if (x < 1000) {
     x = x + 1;
   } else {
     x = 10;
