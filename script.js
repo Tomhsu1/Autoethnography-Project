@@ -27,6 +27,13 @@ function movingElement() {
     elmt.style.marginLeft = x + "vw";
   }
     
-  
-
 window.setInterval(movingElement, 10);
+
+function mathChecker() {
+    answer = document.getElementById("math");
+    if (answer.value == 23) {
+        alert('Congratulations! You got the right answer! You must be Asian.');
+    } else {
+        alert("Sorry, that's the wrong answer. You must not be Asian.");
+    }
+}
