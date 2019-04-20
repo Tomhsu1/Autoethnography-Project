@@ -38,6 +38,15 @@
     width: 25vw;
     height: 27.86vw;
 }
-#test {
-  width: 100px;
+#dh {
+  width: 20vw;
+    height: 20vh;
+}
+#american {
+    float: left;
+    font-size: 3vw;
+}
+#chinese {
+    float: right;
+    font-size: 3vw;
 }

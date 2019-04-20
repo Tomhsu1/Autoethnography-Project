@@ -12,17 +12,21 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-var x = 10;
+var x = 1;
+var velocity;
+var movingLeft = false;
 
 function movingElement() {
-  elmt = document.getElementById("test");
-  if (x < 1000) {
-    x = x + 1;
-  } else {
-    x = 10;
+  elmt = document.getElementById("dh");
+    if (x <= 1) {
+        velocity = 0.1;
+    } else if (x >= 55) {
+        velocity = -0.1;
+    }
+    x += velocity;
+    elmt.style.marginLeft = x + "vw";
   }
-  elmt.style.marginLeft = x + "px";
+    
   
-}
 
 window.setInterval(movingElement, 10);
