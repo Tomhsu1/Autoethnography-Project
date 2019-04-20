@@ -20,7 +20,7 @@ function movingElement() {
   elmt = document.getElementById("dh");
     if (x <= 1) {
         velocity = 0.1;
-    } else if (x >= 55) {
+    } else if (x >= 54) {
         velocity = -0.1;
     }
     x += velocity;
