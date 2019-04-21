@@ -1,9 +1,13 @@
+body {
+    
+}
+
 #immigration1 {
     float: left;
     width: 8.35vw;
     height: 14.62vh;
-    top: 29%;
-    left: 20%;
+    top: 30%;
+    left: 22%;
     position: absolute;
 }
 
@@ -13,7 +17,7 @@
     position: absolute;
     float: right;
     right: 19%;
-    top: 31%;
+    top: 32%;
 }
 
 #drag1 {
