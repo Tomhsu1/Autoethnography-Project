@@ -37,3 +37,17 @@ function mathChecker() {
         alert("Sorry, that's the wrong answer. You must not be Asian.");
     }
 }
+
+//function draw() {
+//    var canvas = document.getElementById("drawing");
+//    if (canvas.getContext) {
+//        var ctx = canvas.getContext('2d');
+//    }
+
+var save;
+
+function record() {
+    comments = document.getElementById("comments");
+    document.getElementById("recorded").innerHTML = comments.value;
+    comments.value = "";
+}

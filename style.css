@@ -58,3 +58,10 @@ body {
     height: 6vw;
     width: 10vw;
 }
+#drawing {
+    border: 1px solid black;
+}
+#comments {
+    width: 40vw;
+    height: 5vw;
+}
