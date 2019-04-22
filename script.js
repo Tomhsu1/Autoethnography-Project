@@ -46,8 +46,16 @@ function mathChecker() {
 
 var save;
 
-function record() {
-    comments = document.getElementById("comments");
-    document.getElementById("recorded").innerHTML = comments.value;
-    comments.value = "";
-}
+//function record() {
+//    comments = document.getElementById("comments");
+//    document.getElementById("recorded").innerHTML = comments.value;
+//    console.log(comments.value);
+////    console.stdlog = console.log.bind(console);
+////    console.logs = [];
+////    console.log = function(){
+////    console.logs.push(Array.from(comments.value));
+////    console.stdlog.apply(console, comments.value);
+////    }
+//    comments.value = "";
+//    
+//}
